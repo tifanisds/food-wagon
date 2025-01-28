@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", serif;
+}
+
+.logo img {
+    width: 300px;
+    height: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 78px;
+    background-color: #FFFFFF;
+    align-items: center;
+}
+
+.location-to-deliver {
+    display: flex;
+    width: 560px;
+    justify-content: space-around;
+    font-size: 18px;
+    align-items: center;
+}
+
+.location-to-deliver img {
+    width: 14px;
+    height: 17px;
+}
+
+.deliver-to, .current-location spam {
+    font-weight: 700;
+}
+
+.search-and-login {
+    display: flex;
+    align-items: center;
+    width: 272px;
+    font-size: 15px;
+    justify-content: space-around;
+}
+
+.search-food {
+    display: flex;
+    align-items: center;
+    width: 124px;
+    justify-content: space-around;
+    font-weight: 700;
+}
+
+.search-food img {
+    width: 18px;
+    height: 18px;
+}
+
+.login-button img {
+    width: 16px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+.login-button {
+    display: flex;
+    align-items: center;
+    width: 118px;
+    height: 46px;
+    box-shadow: 0px 6px 15px #FFAE004A;
+    border-radius: 8px;
+    color: #FFB800;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+}
+
+
