@@ -1,0 +1,145 @@
+.featured-restaurants {
+    margin-top: 50px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.featured-restaurant {
+    margin-left: 25px ;
+    margin-right: 25px ;
+}
+
+.row-1, .row-2 {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.featured-restaurants .food-image {
+    width: 300px;
+    display: block;
+    border-radius: 8px;
+}
+
+.featured-restaurants .food-image-tags {
+    position: relative; 
+    display: inline-block; 
+}
+
+.featured-restaurants .tags {
+    display: flex;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    
+}
+
+.featured-restaurants .title {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 35px;
+    font-weight: 700;
+    color: #212121;
+}
+
+.featured-restaurants .tags .discount, .featured-restaurants .tags .preparation-time {
+    display: flex;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 700;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.featured-restaurants .tags .discount img, .featured-restaurants .tags .preparation-time img {
+    width: 13px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.featured-restaurants .tags .discount {
+    width: 100px;
+    height: 30px;
+    background-color: #F17228;
+    margin-right: 4px;
+}
+
+.featured-restaurants .tags .preparation-time {
+    width: 80px;
+    height: 30px;
+    background-color: #FFB30E   ;
+}
+
+.store {
+    margin-top: 15px;
+    display: flex;
+}
+
+.store img {
+    width: 55px;
+    height: 55px;
+}
+
+.store p {
+    font-size: 16px;
+}
+
+.store .rating img {
+    width: 20px;
+    height: 20px;
+}
+
+.store-rating {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.rating {
+    display: flex;
+}
+
+.rating p {
+    color: #FFB30E;
+    margin-left: 4px;
+}
+
+.store-rating .name {
+    font-weight: 700;
+    color: #424242;
+}
+
+.store-opening {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 30px;
+    border-radius: 16px;
+    color: #F17228;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #F1722833;
+}
+
+.view-all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-weight: 700;
+    width: 160px;
+    height: 50px;
+    background: linear-gradient(#FFBA26, #FF9A0E);
+    border-radius: 14px;
+    font-size: 16px;
+}
+
+.view-all img {
+    margin-left: 10px;
+}
