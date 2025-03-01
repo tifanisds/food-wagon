@@ -1,0 +1,125 @@
+.hero {
+    height: 620px;
+    background-color: #FFB30E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    font-size: 74px;
+    color: #FFFFFF;
+}
+
+h3 {
+    font-size: 18px;
+    color: #504F4F;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.hero-img img {
+    width: 550px;
+    
+}
+
+.find-food {
+    width: 780px;
+    height: 185px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    box-shadow: 0px 6px 15px #666666;
+}
+
+.delivery-or-pickup {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+.delivery-or-pickup .delivery {
+    display: flex;
+    width: 130px;
+    height: 40px;
+    background-color: #F172281A;
+    font-size: 16px;
+    font-weight: 700;
+    color: #F17228;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-right: 25px;
+}
+
+.delivery-or-pickup .delivery img {
+    width: 20px;
+    height: 15px;
+    margin-right: 7px;
+}
+
+.delivery-or-pickup .pickup {
+    display: flex;
+    width: 130px;
+    height: 40px;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    color: #757575;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.delivery-or-pickup .pickup img {
+    width: 16px;
+    height: 18px;
+    margin-right: 7px;
+}
+
+.address-to-find-food {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+}
+
+.address-to-find-food .address-text {
+    width: 520px;
+    height: 45px;
+    background-color: #F5F5F5;
+    font-size: 16;
+    font-weight: 400;
+    color: #9E9E9E;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.address-to-find-food .address-text img {
+    width: 16px;
+    height: 22px;
+    margin-left: 15px;
+    margin-right: 8px;
+}
+
+.address-to-find-food .find-food-button {
+    width: 160px;
+    height: 55px;
+    background: linear-gradient(to right, #FF7A7A, #F65900);
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.address-to-find-food .find-food-button img {
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+}

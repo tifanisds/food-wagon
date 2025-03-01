@@ -7,30 +7,522 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/main/food-on-sale.css">
+    <link rel="stylesheet" href="./assets/css/main/hero.css">
+    <link rel="stylesheet" href="./assets/css/main/how-to-order.css">
+    <link rel="stylesheet" href="./assets/css/main/popular-items.css">
+    <link rel="stylesheet" href="./assets/css/main/featured-restaurants.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <div class="logo"><img src="./assets/img/Logo.png" alt=""></div>
+            <div class="logo"><img src="./assets/img/header/Logo.png" alt=""></div>
 
             <div class="location-to-deliver">
                 <p class="deliver-to">Deliver to: </p>
-                <img src="./assets/img/map-marker-alt.png" alt="" class="map-marker">
+                <img src="./assets/img/header/map-marker-yellow.png" alt="" class="map-marker">
                 <p class="current-location">Current location <spam>Mohammadpur Bus Stand, Dhaka</spam></p>
             </div>
 
             <div class="search-and-login">
                 <div class="search-food">
-                    <img src="./assets/img/Search.png" alt="" class="search-img">
+                    <img src="./assets/img/header/search-yellow.png" alt="" class="search-img">
                     <p>Search food</p>
                 </div>
                 <div class="login-button">
-                    <img src="./assets/img/user.png" alt="" class="user-img">
+                    <img src="./assets/img/header/user.png" alt="" class="user-img">
                     <p>Login</p>
                 </div>
             </div>
         </header>
+
+        <div class="main">
+            <div class="hero">
+                <div class="hero-infos">
+                    <h1>Are you starving?</h1>
+                    <h3>Within a few clicks, find meals that are accessible near you</h3>
+                    <div class="find-food">
+                        <div class="delivery-or-pickup">
+                            <div class="delivery">
+                                <img src="./assets/img/hero/motorcycle.png" alt="">
+                                <p>Delivery</p>
+                            </div>
+                            <div class="pickup">
+                                <img src="./assets/img/hero/bag.png" alt="">
+                                <p>Pickup</p>
+                            </div>
+                        </div>
+
+                        <div class="address-to-find-food">
+                            <div class="address-text">
+                                <img src="./assets/img/hero/map-marker-red.png.png" alt="">
+                                <p>Enter Your Address</p>
+                            </div>
+
+                            <div class="find-food-button">
+                                <img src="./assets/img/hero/search-white.png" alt="">
+                                <p>Find food</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-img"><img src="./assets/img/hero/hero.png" alt=""></div>
+            </div>
+
+            <div class="food-on-sale">
+                <div class="food-option-1" id="1">
+                    <div class="food-img">
+                        <img src="./assets/img/food-on-sale/food-on-sale-1.png" alt="">
+                        <div class="discount-tag">
+                            <p class="number">15</p>
+                            <div class="percentage-off">
+                                <p class="percentage">%</p>
+                                <p class="off">OFF</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sale-info">
+                        <p class="food-name">Greys Vage</p>
+                        <p class="remaining-time">6 Days Remaining</p>
+                    </div>
+                </div>
+
+                <div class="food-option-2" id="2">
+                    <div class="food-img">
+                        <img src="./assets/img/food-on-sale/food-on-sale-2.png" alt="">
+                        <div class="discount-tag">
+                            <p class="number">15</p>
+                            <div class="percentage-off">
+                                <p class="percentage">%</p>
+                                <p class="off">OFF</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sale-info">
+                        <p class="food-name">Greys Vage</p>
+                        <p class="remaining-time">6 Days Remaining</p>
+                    </div>
+                </div>
+
+                <div class="food-option-3" id="3">
+                    <div class="food-img">
+                        <img src="./assets/img/food-on-sale/food-on-sale-3.png" alt="">
+                        <div class="discount-tag">
+                            <p class="number">18</p>
+                            <div class="percentage-off">
+                                <p class="percentage">%</p>
+                                <p class="off">OFF</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sale-info">
+                        <p class="food-name">Greys Vage</p>
+                        <p class="remaining-time">6 Days Remaining</p>
+                    </div>
+                </div>
+
+                <div class="food-option-4" id="4">
+                    <div class="food-img">
+                        <img src="./assets/img/food-on-sale/food-on-sale-4.png" alt="">
+                        <div class="discount-tag">
+                            <p class="number">17</p>
+                            <div class="percentage-off">
+                                <p class="percentage">%</p>
+                                <p class="off">OFF</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sale-info">
+                        <p class="food-name">Greys Vage</p>
+                        <p class="remaining-time">6 Days Remaining</p>
+                    </div>
+                </div>
+
+                
+            </div>
+
+            <div class="how-to-order">
+                <p class="how-to-order-tile">How does it work</p>
+                <div class="how-to-order-line">
+                    <div class="select-location">
+                        <img src="./assets/img/how-to-order/select-location.png" alt="">
+                        <p class="title">Select location</p>
+                        <p class="info">Choose the location where your<br>food will be delivered.</p>
+                    </div>
+
+                    <div class="choose-order">
+                        <img src="./assets/img/how-to-order/choose-order.png" alt="">
+                        <p class="title">Choose order</p>
+                        <p class="info">Check over hundreds of menus to<br>pick your favorite food</p>
+                    </div>
+
+                    <div class="pay-advanced">
+                        <img src="./assets/img/how-to-order/pay-advanced.png" alt="">
+                        <p class="title">Pay advanced</p>
+                        <p class="info">It's quick, safe, and simple. Select<br>several methods of payment</p>
+                    </div>
+
+                    <div class="enjoy-meals">
+                        <img src="./assets/img/how-to-order/enjoy-meals.png" alt="">
+                        <p class="title">Enjoy meals</p>
+                        <p class="info">Food is made and delivered directly<br>to your home.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="popular-items">
+                <p class="title">Popular items</p>
+                <div class="popular-items-line">
+                    <div class="left-arrow arrow"></div>
+
+                    <div class="popular-item-1 popular-item">
+                        <img src="./assets/img/popular-items/cheeseburger.png" alt="" class="food-image">
+                        <p class="food-name">Cheese Burger</p>
+                        <div class="location">
+                            <img src="./assets/img/header/map-marker-yellow.png" alt="">
+                            <p>Burger Arena</p>
+                        </div>
+                        <p class="price">$3.88</p>
+                        <div class="order-button"><p>Order Now</p></div>
+                    </div>
+
+                    <div class="popular-item-2 popular-item">
+                        <img src="./assets/img/popular-items/toffel-cake.png" alt="" class="food-image">
+                        <p class="food-name">Toffel's Cake</p>
+                        <div class="location">
+                            <img src="./assets/img/header/map-marker-yellow.png" alt="">
+                            <p>Top Sticks</p>
+                        </div>
+                        <p class="price">$4.00</p>
+                        <div class="order-button"><p>Order Now</p></div>
+                    </div>
+
+                    <div class="popular-item-3 popular-item">
+                        <img src="./assets/img/popular-items/dancake.png" alt="" class="food-image">
+                        <p class="food-name">Dancake</p>
+                        <div class="location">
+                            <img src="./assets/img/header/map-marker-yellow.png" alt="">
+                            <p>Cake World</p>
+                        </div>
+                        <p class="price">$1.99</p>
+                        <div class="order-button"><p>Order Now</p></div>
+                    </div>
+
+                    <div class="popular-item-4 popular-item">
+                        <img src="./assets/img/popular-items/crispy-sandwitch.png" alt="" class="food-image">
+                        <p class="food-name">Crispy Sandwitch</p>
+                        <div class="location">
+                            <img src="./assets/img/header/map-marker-yellow.png" alt="">
+                            <p>Fastfood Dine</p>
+                        </div>
+                        <p class="price">$3.00</p>
+                        <div class="order-button"><p>Order Now</p></div>
+                    </div>
+
+                    <div class="popular-item-5 popular-item">
+                        <img src="./assets/img/popular-items/thai-soup.png" alt="" class="food-image">
+                        <p class="food-name">Thai Soup</p>
+                        <div class="location">
+                            <img src="./assets/img/header/map-marker-yellow.png" alt="">
+                            <p>Foody man</p>
+                        </div>
+                        <p class="price">$2.79</p>
+                        <div class="order-button"><p>Order Now</p></div>
+                    </div>
+
+                    <div class="right-arrow arrow"></div>
+                </div>
+            </div>
+
+            <div class="featured-restaurants">
+                <p class="title">Featured Restaurants</p>
+
+                <div class="row-1">
+                    <div class="featured-restaurant-1 featured-restaurant">
+                        <div class="food-image-tags">
+                            <img src="./assets/img/featured-restaurants/food-1.png" class="food-image" alt="">
+                            <div class="tags"> 
+                                <div class="discount">
+                                    <img src="./assets/img/featured-restaurants/white-tag.png" alt="">
+                                    <p>20% off</p>
+                                </div>
+                                <div class="preparation-time">
+                                    <img src="./assets/img/featured-restaurants/white-clock.png" alt="">
+                                    <p>Fast</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="store">
+                            <img src="./assets/img/featured-restaurants/foodworld.png" alt="">
+                            <div class="store-rating">
+                                <p class="name">Food World</p>
+                                <div class="rating">
+                                    <img src="./assets/img/featured-restaurants/star.png" alt="">
+                                    <p>46</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="store-opening">
+                            <p>Opens tomorrow</p>
+                        </div>
+    
+                    </div>
+    
+                    <div class="featured-restaurant-2 featured-restaurant">
+                        <div class="food-image-tags">
+                            <img src="./assets/img/featured-restaurants/food-2.png" class="food-image" alt="">
+                            <div class="tags"> 
+                                <div class="discount">
+                                    <img src="./assets/img/featured-restaurants/white-tag.png" alt="">
+                                    <p>20% off</p>
+                                </div>
+                                <div class="preparation-time">
+                                    <img src="./assets/img/featured-restaurants/white-clock.png" alt="">
+                                    <p>Fast</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="store">
+                            <img src="./assets/img/featured-restaurants/pizzahub.png" alt="">
+                            <div class="store-rating">
+                                <p class="name">Pizza Hub</p>
+                                <div class="rating">
+                                    <img src="./assets/img/featured-restaurants/star.png" alt="">
+                                    <p>40</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="store-opening">
+                            <p>Opens tomorrow</p>
+                        </div>
+    
+                    </div>
+    
+                    <div class="featured-restaurant-3 featured-restaurant">
+                        <div class="food-image-tags">
+                            <img src="./assets/img/featured-restaurants/food-3.png" class="food-image" alt="">
+                            <div class="tags"> 
+                                <div class="discount">
+                                    <img src="./assets/img/featured-restaurants/white-tag.png" alt="">
+                                    <p>20% off</p>
+                                </div>
+                                <div class="preparation-time">
+                                    <img src="./assets/img/featured-restaurants/white-clock.png" alt="">
+                                    <p>Fast</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="store">
+                            <img src="./assets/img/featured-restaurants/donutshut.png" alt="">
+                            <div class="store-rating">
+                                <p class="name">Donuts Hut</p>
+                                <div class="rating">
+                                    <img src="./assets/img/featured-restaurants/star.png" alt="">
+                                    <p>20</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="store-opening">
+                            <p>Opens tomorrow</p>
+                        </div>
+    
+                    </div>
+    
+                    <div class="featured-restaurant-4 featured-restaurant">
+                        <div class="food-image-tags">
+                            <img src="./assets/img/featured-restaurants/food-4.png" class="food-image" alt="">
+                            <div class="tags"> 
+                                <div class="discount">
+                                    <img src="./assets/img/featured-restaurants/white-tag.png" alt="">
+                                    <p>20% off</p>
+                                </div>
+                                <div class="preparation-time">
+                                    <img src="./assets/img/featured-restaurants/white-clock.png" alt="">
+                                    <p>Fast</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="store">
+                            <img src="./assets/img/featured-restaurants/subway.png" alt="">
+                            <div class="store-rating">
+                                <p class="name">Subwave</p>
+                                <div class="rating">
+                                    <img src="./assets/img/featured-restaurants/star.png" alt="">
+                                    <p>50</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="store-opening">
+                            <p>Opens tomorrow</p>
+                        </div>
+    
+                    </div>
+    
+                    
+                </div>
+
+                <div class="row-2">
+                    <div class="featured-restaurant-5 featured-restaurant">
+                        <div class="food-image-tags">
+                            <img src="./assets/img/featured-restaurants/food-5.png" class="food-image" alt="">
+                            <div class="tags"> 
+                                <div class="discount">
+                                    <img src="./assets/img/featured-restaurants/white-tag.png" alt="">
+                                    <p>20% off</p>
+                                </div>
+                                <div class="preparation-time">
+                                    <img src="./assets/img/featured-restaurants/white-clock.png" alt="">
+                                    <p>Fast</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="store">
+                            <img src="./assets/img/featured-restaurants/rubytuesday.png" alt="">
+                            <div class="store-rating">
+                                <p class="name">Ruby Tuesday</p>
+                                <div class="rating">
+                                    <img src="./assets/img/featured-restaurants/star.png" alt="">
+                                    <p>56</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="store-opening">
+                            <p>Opens tomorrow</p>
+                        </div>
+    
+                    </div>
+    
+                    <div class="featured-restaurant-6 featured-restaurant">
+                        <div class="food-image-tags">
+                            <img src="./assets/img/featured-restaurants/food-6.png" class="food-image" alt="">
+                            <div class="tags"> 
+                                <div class="discount">
+                                    <img src="./assets/img/featured-restaurants/white-tag.png" alt="">
+                                    <p>20% off</p>
+                                </div>
+                                <div class="preparation-time">
+                                    <img src="./assets/img/featured-restaurants/white-clock.png" alt="">
+                                    <p>Fast</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="store">
+                            <img src="./assets/img/featured-restaurants/kuatakafriedchicken.png" alt="">
+                            <div class="store-rating">
+                                <p class="name">Kuakata Fried Chicken</p>
+                                <div class="rating">
+                                    <img src="./assets/img/featured-restaurants/star.png" alt="">
+                                    <p>20</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="store-opening">
+                            <p>Opens tomorrow</p>
+                        </div>
+    
+                    </div>
+    
+                    <div class="featured-restaurant-7 featured-restaurant">
+                        <div class="food-image-tags">
+                            <img src="./assets/img/featured-restaurants/food-7.png" class="food-image" alt="">
+                            <div class="tags"> 
+                                <div class="discount">
+                                    <img src="./assets/img/featured-restaurants/white-tag.png" alt="">
+                                    <p>20% off</p>
+                                </div>
+                                <div class="preparation-time">
+                                    <img src="./assets/img/featured-restaurants/white-clock.png" alt="">
+                                    <p>Fast</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="store">
+                            <img src="./assets/img/featured-restaurants/redsquare.png" alt="">
+                            <div class="store-rating">
+                                <p class="name">Red Square</p>
+                                <div class="rating">
+                                    <img src="./assets/img/featured-restaurants/star.png" alt="">
+                                    <p>30</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="store-opening">
+                            <p>Opens tomorrow</p>
+                        </div>
+    
+                    </div>
+    
+                    <div class="featured-restaurant-8 featured-restaurant"> 
+                        <div class="food-image-tags">
+                            <img src="./assets/img/featured-restaurants/food-8.png" class="food-image" alt="">
+                            <div class="tags"> 
+                                <div class="discount">
+                                    <img src="./assets/img/featured-restaurants/white-tag.png" alt="">
+                                    <p>20% off</p>
+                                </div>
+                                <div class="preparation-time">
+                                    <img src="./assets/img/featured-restaurants/white-clock.png" alt="">
+                                    <p>Fast</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="store">
+                            <img src="./assets/img/featured-restaurants/tacobell.png" alt="">
+                            <div class="store-rating">
+                                <p class="name">Taco Bell</p>
+                                <div class="rating">
+                                    <img src="./assets/img/featured-restaurants/star.png" alt="">
+                                    <p>46</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="store-opening">
+                            <p>Opens tomorrow</p>
+                        </div>
+    
+                    </div>
+                </div>
+
+                <div class="view-all">
+                    <p>View All</p>
+                    <img src="assets/img/featured-restaurants/left-arrow.png" alt="">
+                </div>
+            </div>
+
+            <div class="search-by-food">
+                <div class="search-by-food-header">
+                    <p class="title">Search by Food</p>
+                    <div>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
 
 </body>
